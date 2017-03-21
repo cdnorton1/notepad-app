@@ -1,0 +1,46 @@
+/*FONTS
+font-family: 'Satisfy', cursive;
+font-family: 'Boogaloo', cursive;*/
+
+body {
+    font-family: Tahoma;
+    background: url("../assets/woodBG.jpeg");
+    background-size: cover;
+    line-height: 1.5em;
+}
+
+header h1 {
+    font-family: 'Boogaloo', cursive;
+    font-size: 3em;
+}
+
+footer p {
+    font-family: 'Boogaloo', cursive;
+    font-size: 1.2em;
+    margin-top: 50px;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+#container {
+    background: #FFFFA6;
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    overflow: auto;
+    padding: 20px;
+    -webkit-box-shadow: 6px 5px 14px 0px rgba(50, 50, 50, 0.67);
+    -moz-box-shadow: 6px 5px 14px 0px rgba(50, 50, 50, 0.67);
+    box-shadow: 6px 5px 14px 0px rgba(50, 50, 50, 0.67);
+}
+
+.clear {
+    text-decoration: none;
+    background: #000;
+    color: #FFFFA6;
+    padding: 10px;
+    border-radius: 10px;
+}
